@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class GreetingController {
+public class AutoUnderwriterController {
 
     private static final String template = "Dummy %s";
     private final AtomicLong counter = new AtomicLong();
